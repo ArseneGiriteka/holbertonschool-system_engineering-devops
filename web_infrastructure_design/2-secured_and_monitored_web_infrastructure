@@ -1,1 +1,12 @@
 https://imgur.com/a/Abxk5oE
+
+1. The web browser ask the DNS resolver an ip adress corresponding the record via a web server
+2. The web browser gets back the ip address needed via the web server
+3. The web browser request the server with the corresponding ip address via the web server
+4. The web browser gets finaly the static web site needed via the web browser
+5. The web server ask the DNS resolver the ip address for given DNS record
+6. The DNS resolver respond with good ip address
+7. and 9. the request must pass 3 firewalls before to get the good server
+8. and 10. the result will go through the 3 firewalls before it reachs the web server
+11. Finally the request reachs the app server
+12. The App server will respond through same firewall

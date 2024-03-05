@@ -1,1 +1,8 @@
 https://imgur.com/a/DCGc8Ms
+
+1. The web server request the need server via a HAProxy server
+2. The web server will get back the static web server
+3. The request finally reachs the app server
+4. The app server responds via HAProxy server
+5. At runtime the app request the Data base
+6. Data base responds back the app
